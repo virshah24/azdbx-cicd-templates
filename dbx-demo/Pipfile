@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+xgboost = "==1.0.2"
+onnxruntime = "==1.0.0"
+nimbusml = "==1.7.1"
+"ruamel.yaml" = "==0.16.9"
+scikit-learn = "==0.22.1"
+numpy = "==1.16.2"
+scipy = "==1.4.1"
+pandas = "==0.25.1"
+azureml-telemetry = "~=1.34.0"
+azureml-automl-runtime = "==1.34.0"
+azureml-automl-dnn-nlp = "==1.34.0"
+azureml-automl-core = "==1.34.0"
+azureml-train = "==1.34.0"
+azureml-train-restclients-hyperdrive = "==1.34.0"
+azureml-train-core = "==1.34.0"
+azureml-train-automl = "==1.34.0"
+azureml-train-automl-runtime = "==1.34.0"
+azureml-train-automl-client = "==1.34.0"
+Werkzeug = "==0.16.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
